@@ -1,0 +1,21 @@
+Repositório
+- Onde os projetos ficam armazenados repositório local repositório e remoto
+- GitHub onde armazenamos repositórios
+
+Git
+- Ferramenta de versionamento
+
+Comand line:
+
+-> mkdir nome_pasta   (criar uma pasta) 
+-> cd nome pasta      (navegar para pasta)
+
+Comando git:
+
+-> git --version                                     (Ver versão do git)
+-> git clone endereco_repositorio                    (Copiar o repositório remoto para maquina local)
+-> git status                                        (Status do repositório local)
+-> git add nome arquivo ou . / *.                    (Adiconar arquivo a stage área)
+-> git config --global user.email "you@example.com"  (Configurar email)
+-> git config --global user.name "Your Name"         (Configurar nome)
+-> git commit -m "Titulo do commit"                  (Commitar alterações)
