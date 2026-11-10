@@ -19,3 +19,5 @@ Comando git:
 -> git config --global user.email "you@example.com"  (Configurar email)
 -> git config --global user.name "Your Name"         (Configurar nome)
 -> git commit -m "Titulo do commit"                  (Commitar alterações)
+-> git push                                          (Atualizar repositorio remoto)
+-> git pull                                          (Atualizar repositorio local)
