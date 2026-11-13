@@ -8,10 +8,10 @@ public class Cinema {
 
         // Lista de filmes
         String[] filmes = {
-            "1 - Vingadores",
-            "2 - Divertida Mente 2",
-            "3 - Homem-Aranha",
-            "4 - Moana 2"
+            "1 - Michael Jackson",
+            "2 - Carros 2",
+            "3 - Minha mãe é uma peça",
+            "4 - Madagascar 4"
         };
 
         System.out.println("===== CINEMA =====");
@@ -29,10 +29,10 @@ public class Cinema {
 
         // Escolha da sessão
         System.out.println("\nEscolha a sessão:");
-        System.out.println("1 - 14:00");
-        System.out.println("2 - 16:00");
+        System.out.println("1 - 14:30");
+        System.out.println("2 - 16:15");
         System.out.println("3 - 19:00");
-        System.out.println("4 - 21:00");
+        System.out.println("4 - 21:45");
 
         int sessao;
         do {
@@ -53,13 +53,14 @@ public class Cinema {
         // Resultado
         System.out.println("\n===== RESUMO DA COMPRA =====");
         System.out.println("Filme: " + filmes[escolha - 1]);
-        System.out.println("Sessão: " + (sessao == 1 ? "14:00" :
-                           sessao == 2 ? "16:00" :
-                           sessao == 3 ? "19:00" : "21:00"));
+        System.out.println("Sessão: " + (sessao == 1 ? "14:30" :
+                           sessao == 2 ? "16:15" :
+                           sessao == 3 ? "19:00" : "21:45"));
 
         System.out.println("Ingressos inteiros: " + inteira);
         System.out.println("Meias-entradas: " + meia);
         System.out.printf("Total a pagar: R$ %.2f%n", total);
+
 
         entrada.close();
     }
